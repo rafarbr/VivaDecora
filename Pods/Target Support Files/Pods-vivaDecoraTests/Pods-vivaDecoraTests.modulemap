@@ -1,0 +1,6 @@
+framework module Pods_vivaDecoraTests {
+  umbrella header "Pods-vivaDecoraTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
