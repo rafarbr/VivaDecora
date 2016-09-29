@@ -1,2270 +1,918 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>0CFD4684E885831A9CF219C0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-vivaDecoraUITests.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-vivaDecoraUITests/Pods-vivaDecoraUITests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0F3A020FFC8E6256DBAE2B44</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-vivaDecora/Pods-vivaDecora-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>19FFFD78E41F945AD60DCD67</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_vivaDecoraUITests.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>2BAF44B8BC8B254C1D82E4A8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-vivaDecoraUITests/Pods-vivaDecoraUITests-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>320B02667A72957D80153782</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-vivaDecora.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-vivaDecora/Pods-vivaDecora.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>386442AF434AC42FC1060415</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>673E8323C0EF9BF713C24B90</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-vivaDecoraTests/Pods-vivaDecoraTests-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>77EB691D6C282CA2A381C84A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-vivaDecora.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-vivaDecora/Pods-vivaDecora.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9848BAF4FE22F41A1B5994BD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-vivaDecoraUITests.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-vivaDecoraUITests/Pods-vivaDecoraUITests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>99A74B744E0934662302C26D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B2F048A14FF6A50B161DFBF5</string>
-				<string>CDA12112118068B26C0A2979</string>
-				<string>19FFFD78E41F945AD60DCD67</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A090C33790B83013FDFB7407</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>A3F9E34DB89D425298F1AE5D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>19FFFD78E41F945AD60DCD67</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AA0EB472F9FF3568130C1551</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>77EB691D6C282CA2A381C84A</string>
-				<string>320B02667A72957D80153782</string>
-				<string>CAA074BC546F65AACA84A93B</string>
-				<string>BCD0D7CC1BC569321A47A482</string>
-				<string>9848BAF4FE22F41A1B5994BD</string>
-				<string>0CFD4684E885831A9CF219C0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B2F048A14FF6A50B161DFBF5</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_vivaDecora.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>B523DED3FC4C4098D584F642</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-vivaDecoraTests/Pods-vivaDecoraTests-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>BCD0D7CC1BC569321A47A482</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-vivaDecoraTests.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-vivaDecoraTests/Pods-vivaDecoraTests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CAA074BC546F65AACA84A93B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-vivaDecoraTests.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-vivaDecoraTests/Pods-vivaDecoraTests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CDA12112118068B26C0A2979</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_vivaDecoraTests.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>D46F454CE62DD444E43D29F9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CDA12112118068B26C0A2979</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DEE8A686EF54809CFAAA94EA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B2F048A14FF6A50B161DFBF5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EF11C0A71D97580500CE03CD</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>WSAviewFromMySeat.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF11C0A81D97580500CE03CD</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>WSAviewFromMySeat.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF11C0A91D97580500CE03CD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EF11C0A81D97580500CE03CD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EF11C0AA1D97580500CE03CD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EF11C0A81D97580500CE03CD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EF11C0AB1D97580500CE03CD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EF11C0A81D97580500CE03CD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EF1A0DA8100B205D9350D0EC</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>EF3C2DCB1D9572C5001BCBF4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EF3C2DD61D9575E8001BCBF4</string>
-				<string>EF3C2DD71D9575E8001BCBF4</string>
-				<string>EFA999EE1D99A4C50051C001</string>
-				<string>EFA999EF1D99A4C50051C001</string>
-				<string>EF4782781D9D7E2300CE5054</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Model</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF3C2DCC1D9572F4001BCBF4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EF3C2DCF1D957537001BCBF4</string>
-				<string>EF3C2DD01D957537001BCBF4</string>
-				<string>EFA999F31D99AF7C0051C001</string>
-				<string>EFA999F41D99AF7C0051C001</string>
-				<string>EF4782791D9D805F00CE5054</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>View</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF3C2DCD1D95732A001BCBF4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EF5D98C81D956EB700DE533F</string>
-				<string>EF5D98C91D956EB700DE533F</string>
-				<string>EFA999E91D9964270051C001</string>
-				<string>EFA999EA1D9964270051C001</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Controller</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF3C2DCE1D95733D001BCBF4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EF11C0A71D97580500CE03CD</string>
-				<string>EF11C0A81D97580500CE03CD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Service</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF3C2DCF1D957537001BCBF4</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PlacePhotoViewCell.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF3C2DD01D957537001BCBF4</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PlacePhotoViewCell.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF3C2DD11D957537001BCBF4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EF3C2DD01D957537001BCBF4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EF3C2DD21D957537001BCBF4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EF3C2DD01D957537001BCBF4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EF3C2DD31D957537001BCBF4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EF3C2DD01D957537001BCBF4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EF3C2DD41D95754A001BCBF4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EFA999F81D9AFE1A0051C001</string>
-				<string>EFA999F91D9AFE1A0051C001</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Categorie</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF3C2DD61D9575E8001BCBF4</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Place.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF3C2DD71D9575E8001BCBF4</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Place.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF3C2DD81D9575E8001BCBF4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EF3C2DD71D9575E8001BCBF4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EF3C2DD91D9575E8001BCBF4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EF3C2DD71D9575E8001BCBF4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EF3C2DDA1D9575E8001BCBF4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EF3C2DD71D9575E8001BCBF4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EF3C2DF01D95922D001BCBF4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EF47827A1D9D8BCE00CE5054</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Utils</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF4782711D9CA77C00CE5054</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>DetailPlacePresenter.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF4782721D9CA77C00CE5054</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>DetailPlacePresenter.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF4782731D9CA77C00CE5054</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EF4782721D9CA77C00CE5054</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EF4782741D9CA77C00CE5054</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EF4782721D9CA77C00CE5054</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EF4782751D9CA77C00CE5054</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EF4782721D9CA77C00CE5054</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EF4782761D9CBBB400CE5054</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>WSAviewFromMySeatTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF4782771D9CBBB400CE5054</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EF4782761D9CBBB400CE5054</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EF4782781D9D7E2300CE5054</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Model.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF4782791D9D805F00CE5054</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>View.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF47827A1D9D8BCE00CE5054</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Constants.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF5D98B61D956EB700DE533F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EF5D98C11D956EB700DE533F</string>
-				<string>EF5D98DB1D956EB700DE533F</string>
-				<string>EF5D98E61D956EB700DE533F</string>
-				<string>EF5D98C01D956EB700DE533F</string>
-				<string>AA0EB472F9FF3568130C1551</string>
-				<string>99A74B744E0934662302C26D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF5D98B71D956EB700DE533F</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0800</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>i9app</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>EF5D98BE1D956EB700DE533F</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>8.0</string>
-						<key>DevelopmentTeam</key>
-						<string>WN2VB9A9U9</string>
-						<key>ProvisioningStyle</key>
-						<string>Automatic</string>
-					</dict>
-					<key>EF5D98D71D956EB700DE533F</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>8.0</string>
-						<key>DevelopmentTeam</key>
-						<string>WN2VB9A9U9</string>
-						<key>ProvisioningStyle</key>
-						<string>Automatic</string>
-						<key>TestTargetID</key>
-						<string>EF5D98BE1D956EB700DE533F</string>
-					</dict>
-					<key>EF5D98E21D956EB700DE533F</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>8.0</string>
-						<key>DevelopmentTeam</key>
-						<string>WN2VB9A9U9</string>
-						<key>ProvisioningStyle</key>
-						<string>Automatic</string>
-						<key>TestTargetID</key>
-						<string>EF5D98BE1D956EB700DE533F</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>EF5D98BA1D956EB700DE533F</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>EF5D98B61D956EB700DE533F</string>
-			<key>productRefGroup</key>
-			<string>EF5D98C01D956EB700DE533F</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>EF5D98BE1D956EB700DE533F</string>
-				<string>EF5D98D71D956EB700DE533F</string>
-				<string>EF5D98E21D956EB700DE533F</string>
-			</array>
-		</dict>
-		<key>EF5D98BA1D956EB700DE533F</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>EF5D98EA1D956EB700DE533F</string>
-				<string>EF5D98EB1D956EB700DE533F</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>EF5D98BB1D956EB700DE533F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>EF3C2DD81D9575E8001BCBF4</string>
-				<string>EF5D98CA1D956EB700DE533F</string>
-				<string>EFA999EB1D9964270051C001</string>
-				<string>EF11C0A91D97580500CE03CD</string>
-				<string>EFBFDB9B1D9C7ED500409999</string>
-				<string>EF3C2DD11D957537001BCBF4</string>
-				<string>EFBFDBBF1D9C8E9F00409999</string>
-				<string>EFA999F51D99AF7C0051C001</string>
-				<string>EFBFDBC61D9C914E00409999</string>
-				<string>EF4782731D9CA77C00CE5054</string>
-				<string>EFA999F01D99A4C50051C001</string>
-				<string>EF5D98C71D956EB700DE533F</string>
-				<string>EFA999FA1D9AFE1A0051C001</string>
-				<string>EF5D98C41D956EB700DE533F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>EF5D98BC1D956EB700DE533F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>DEE8A686EF54809CFAAA94EA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>EF5D98BD1D956EB700DE533F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>EF5D98D21D956EB700DE533F</string>
-				<string>EF5D98CF1D956EB700DE533F</string>
-				<string>EF5D98CD1D956EB700DE533F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>EF5D98BE1D956EB700DE533F</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>EF5D98EC1D956EB700DE533F</string>
-			<key>buildPhases</key>
-			<array>
-				<string>A090C33790B83013FDFB7407</string>
-				<string>EF5D98BB1D956EB700DE533F</string>
-				<string>EF5D98BC1D956EB700DE533F</string>
-				<string>EF5D98BD1D956EB700DE533F</string>
-				<string>F4CC689509CC43BBEC8179E8</string>
-				<string>0F3A020FFC8E6256DBAE2B44</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>vivaDecora</string>
-			<key>productName</key>
-			<string>vivaDecora</string>
-			<key>productReference</key>
-			<string>EF5D98BF1D956EB700DE533F</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>EF5D98BF1D956EB700DE533F</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>vivaDecora.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>EF5D98C01D956EB700DE533F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EF5D98BF1D956EB700DE533F</string>
-				<string>EF5D98D81D956EB700DE533F</string>
-				<string>EF5D98E31D956EB700DE533F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF5D98C11D956EB700DE533F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EF5D98C51D956EB700DE533F</string>
-				<string>EF5D98C61D956EB700DE533F</string>
-				<string>EF5D98CB1D956EB700DE533F</string>
-				<string>EF5D98D01D956EB700DE533F</string>
-				<string>EFBFDB9E1D9C873C00409999</string>
-				<string>EF3C2DCE1D95733D001BCBF4</string>
-				<string>EF3C2DCD1D95732A001BCBF4</string>
-				<string>EF3C2DCC1D9572F4001BCBF4</string>
-				<string>EFBFDB981D9C7E2E00409999</string>
-				<string>EFBFDBC21D9C90F600409999</string>
-				<string>EF3C2DCB1D9572C5001BCBF4</string>
-				<string>EF3C2DD41D95754A001BCBF4</string>
-				<string>EF3C2DF01D95922D001BCBF4</string>
-				<string>EF5D98C21D956EB700DE533F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>vivaDecora</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF5D98C21D956EB700DE533F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EF5D98CE1D956EB700DE533F</string>
-				<string>EF5D98D31D956EB700DE533F</string>
-				<string>EF5D98C31D956EB700DE533F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF5D98C31D956EB700DE533F</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF5D98C41D956EB700DE533F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EF5D98C31D956EB700DE533F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EF5D98C51D956EB700DE533F</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF5D98C61D956EB700DE533F</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF5D98C71D956EB700DE533F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EF5D98C61D956EB700DE533F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EF5D98C81D956EB700DE533F</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PlaceViewController.h</string>
-			<key>path</key>
-			<string>../PlaceViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF5D98C91D956EB700DE533F</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>PlaceViewController.m</string>
-			<key>path</key>
-			<string>../PlaceViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF5D98CA1D956EB700DE533F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EF5D98C91D956EB700DE533F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EF5D98CB1D956EB700DE533F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EF5D98CC1D956EB700DE533F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF5D98CC1D956EB700DE533F</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF5D98CD1D956EB700DE533F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EF5D98CB1D956EB700DE533F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EF5D98CE1D956EB700DE533F</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Assets.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF5D98CF1D956EB700DE533F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EF5D98CE1D956EB700DE533F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EF5D98D01D956EB700DE533F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EF5D98D11D956EB700DE533F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF5D98D11D956EB700DE533F</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF5D98D21D956EB700DE533F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EF5D98D01D956EB700DE533F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EF5D98D31D956EB700DE533F</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF5D98D41D956EB700DE533F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>EFA999F11D99A4C50051C001</string>
-				<string>EFA999EC1D9964270051C001</string>
-				<string>EF11C0AA1D97580500CE03CD</string>
-				<string>EFBFDB971D9C4D7200409999</string>
-				<string>EFBFDB9C1D9C7ED500409999</string>
-				<string>EF3C2DD91D9575E8001BCBF4</string>
-				<string>EFBFDBC01D9C8E9F00409999</string>
-				<string>EFBFDBC71D9C914E00409999</string>
-				<string>EF4782741D9CA77C00CE5054</string>
-				<string>EF3C2DD21D957537001BCBF4</string>
-				<string>EFBFDB951D9C407F00409999</string>
-				<string>EF4782771D9CBBB400CE5054</string>
-				<string>EFA999F61D99AF7C0051C001</string>
-				<string>EFA999FB1D9AFE1A0051C001</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>EF5D98D51D956EB700DE533F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D46F454CE62DD444E43D29F9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>EF5D98D61D956EB700DE533F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>EF5D98D71D956EB700DE533F</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>EF5D98EF1D956EB700DE533F</string>
-			<key>buildPhases</key>
-			<array>
-				<string>386442AF434AC42FC1060415</string>
-				<string>EF5D98D41D956EB700DE533F</string>
-				<string>EF5D98D51D956EB700DE533F</string>
-				<string>EF5D98D61D956EB700DE533F</string>
-				<string>B523DED3FC4C4098D584F642</string>
-				<string>673E8323C0EF9BF713C24B90</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>EF5D98DA1D956EB700DE533F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>vivaDecoraTests</string>
-			<key>productName</key>
-			<string>vivaDecoraTests</string>
-			<key>productReference</key>
-			<string>EF5D98D81D956EB700DE533F</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>EF5D98D81D956EB700DE533F</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>vivaDecoraTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>EF5D98D91D956EB700DE533F</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>EF5D98B71D956EB700DE533F</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>EF5D98BE1D956EB700DE533F</string>
-			<key>remoteInfo</key>
-			<string>vivaDecora</string>
-		</dict>
-		<key>EF5D98DA1D956EB700DE533F</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>EF5D98BE1D956EB700DE533F</string>
-			<key>targetProxy</key>
-			<string>EF5D98D91D956EB700DE533F</string>
-		</dict>
-		<key>EF5D98DB1D956EB700DE533F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EF5D98DE1D956EB700DE533F</string>
-				<string>EFBFDB941D9C407F00409999</string>
-				<string>EFBFDB961D9C4D7200409999</string>
-				<string>EF4782761D9CBBB400CE5054</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>vivaDecoraTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF5D98DE1D956EB700DE533F</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF5D98DF1D956EB700DE533F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>EFBFDB9D1D9C7ED500409999</string>
-				<string>EFBFDBC81D9C914E00409999</string>
-				<string>EFA999F21D99A4C50051C001</string>
-				<string>EFA999ED1D9964270051C001</string>
-				<string>EF11C0AB1D97580500CE03CD</string>
-				<string>EF3C2DDA1D9575E8001BCBF4</string>
-				<string>EF5D98E81D956EB700DE533F</string>
-				<string>EFBFDBC11D9C8E9F00409999</string>
-				<string>EF3C2DD31D957537001BCBF4</string>
-				<string>EF4782751D9CA77C00CE5054</string>
-				<string>EFA999F71D99AF7C0051C001</string>
-				<string>EFA999FC1D9AFE1A0051C001</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>EF5D98E01D956EB700DE533F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A3F9E34DB89D425298F1AE5D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>EF5D98E11D956EB700DE533F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>EF5D98E21D956EB700DE533F</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>EF5D98F21D956EB700DE533F</string>
-			<key>buildPhases</key>
-			<array>
-				<string>EF1A0DA8100B205D9350D0EC</string>
-				<string>EF5D98DF1D956EB700DE533F</string>
-				<string>EF5D98E01D956EB700DE533F</string>
-				<string>EF5D98E11D956EB700DE533F</string>
-				<string>2BAF44B8BC8B254C1D82E4A8</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>EF5D98E51D956EB700DE533F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>vivaDecoraUITests</string>
-			<key>productName</key>
-			<string>vivaDecoraUITests</string>
-			<key>productReference</key>
-			<string>EF5D98E31D956EB700DE533F</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.ui-testing</string>
-		</dict>
-		<key>EF5D98E31D956EB700DE533F</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>vivaDecoraUITests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>EF5D98E41D956EB700DE533F</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>EF5D98B71D956EB700DE533F</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>EF5D98BE1D956EB700DE533F</string>
-			<key>remoteInfo</key>
-			<string>vivaDecora</string>
-		</dict>
-		<key>EF5D98E51D956EB700DE533F</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>EF5D98BE1D956EB700DE533F</string>
-			<key>targetProxy</key>
-			<string>EF5D98E41D956EB700DE533F</string>
-		</dict>
-		<key>EF5D98E61D956EB700DE533F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EF5D98E71D956EB700DE533F</string>
-				<string>EF5D98E91D956EB700DE533F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>vivaDecoraUITests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF5D98E71D956EB700DE533F</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>vivaDecoraUITests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF5D98E81D956EB700DE533F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EF5D98E71D956EB700DE533F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EF5D98E91D956EB700DE533F</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF5D98EA1D956EB700DE533F</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_DOCUMENTATION_COMMENTS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INFINITE_RECURSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_SUSPICIOUS_MOVE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_SUSPICIOUS_MOVES</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>EF5D98EB1D956EB700DE533F</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_DOCUMENTATION_COMMENTS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INFINITE_RECURSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_SUSPICIOUS_MOVE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_SUSPICIOUS_MOVES</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>EF5D98EC1D956EB700DE533F</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>EF5D98ED1D956EB700DE533F</string>
-				<string>EF5D98EE1D956EB700DE533F</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>EF5D98ED1D956EB700DE533F</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>77EB691D6C282CA2A381C84A</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>WN2VB9A9U9</string>
-				<key>INFOPLIST_FILE</key>
-				<string>vivaDecora/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>br.com.i9.vivaDecora</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>EF5D98EE1D956EB700DE533F</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>320B02667A72957D80153782</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>WN2VB9A9U9</string>
-				<key>INFOPLIST_FILE</key>
-				<string>vivaDecora/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>br.com.i9.vivaDecora</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>EF5D98EF1D956EB700DE533F</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>EF5D98F01D956EB700DE533F</string>
-				<string>EF5D98F11D956EB700DE533F</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>EF5D98F01D956EB700DE533F</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>CAA074BC546F65AACA84A93B</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>WN2VB9A9U9</string>
-				<key>INFOPLIST_FILE</key>
-				<string>vivaDecoraTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>br.com.i9.vivaDecoraTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/vivaDecora.app/vivaDecora</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>EF5D98F11D956EB700DE533F</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>BCD0D7CC1BC569321A47A482</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>WN2VB9A9U9</string>
-				<key>INFOPLIST_FILE</key>
-				<string>vivaDecoraTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>br.com.i9.vivaDecoraTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/vivaDecora.app/vivaDecora</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>EF5D98F21D956EB700DE533F</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>EF5D98F31D956EB700DE533F</string>
-				<string>EF5D98F41D956EB700DE533F</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>EF5D98F31D956EB700DE533F</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>9848BAF4FE22F41A1B5994BD</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>WN2VB9A9U9</string>
-				<key>INFOPLIST_FILE</key>
-				<string>vivaDecoraUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>br.com.i9.vivaDecoraUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>vivaDecora</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>EF5D98F41D956EB700DE533F</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>0CFD4684E885831A9CF219C0</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>WN2VB9A9U9</string>
-				<key>INFOPLIST_FILE</key>
-				<string>vivaDecoraUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>br.com.i9.vivaDecoraUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>vivaDecora</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>EFA999E91D9964270051C001</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>DetailPlaceViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EFA999EA1D9964270051C001</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>DetailPlaceViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EFA999EB1D9964270051C001</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EFA999EA1D9964270051C001</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EFA999EC1D9964270051C001</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EFA999EA1D9964270051C001</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EFA999ED1D9964270051C001</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EFA999EA1D9964270051C001</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EFA999EE1D99A4C50051C001</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>DetailPlace.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EFA999EF1D99A4C50051C001</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>DetailPlace.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EFA999F01D99A4C50051C001</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EFA999EF1D99A4C50051C001</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EFA999F11D99A4C50051C001</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EFA999EF1D99A4C50051C001</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EFA999F21D99A4C50051C001</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EFA999EF1D99A4C50051C001</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EFA999F31D99AF7C0051C001</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>DetailPlaceView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EFA999F41D99AF7C0051C001</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>DetailPlaceView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EFA999F51D99AF7C0051C001</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EFA999F41D99AF7C0051C001</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EFA999F61D99AF7C0051C001</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EFA999F41D99AF7C0051C001</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EFA999F71D99AF7C0051C001</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EFA999F41D99AF7C0051C001</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EFA999F81D9AFE1A0051C001</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>UIAlertController+Custom.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EFA999F91D9AFE1A0051C001</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>UIAlertController+Custom.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EFA999FA1D9AFE1A0051C001</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EFA999F91D9AFE1A0051C001</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EFA999FB1D9AFE1A0051C001</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EFA999F91D9AFE1A0051C001</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EFA999FC1D9AFE1A0051C001</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EFA999F91D9AFE1A0051C001</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EFBFDB941D9C407F00409999</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PlaceTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EFBFDB951D9C407F00409999</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EFBFDB941D9C407F00409999</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EFBFDB961D9C4D7200409999</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>DetailPlaceTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EFBFDB971D9C4D7200409999</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EFBFDB961D9C4D7200409999</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EFBFDB981D9C7E2E00409999</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EFBFDB991D9C7ED500409999</string>
-				<string>EFBFDB9A1D9C7ED500409999</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>ViewModel</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EFBFDB991D9C7ED500409999</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PlaceTableViewDataSource.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EFBFDB9A1D9C7ED500409999</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PlaceTableViewDataSource.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EFBFDB9B1D9C7ED500409999</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EFBFDB9A1D9C7ED500409999</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EFBFDB9C1D9C7ED500409999</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EFBFDB9A1D9C7ED500409999</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EFBFDB9D1D9C7ED500409999</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EFBFDB9A1D9C7ED500409999</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EFBFDB9E1D9C873C00409999</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EFBFDBBD1D9C8E9F00409999</string>
-				<string>EFBFDBBE1D9C8E9F00409999</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Repository</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EFBFDBBD1D9C8E9F00409999</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Repository.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EFBFDBBE1D9C8E9F00409999</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Repository.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EFBFDBBF1D9C8E9F00409999</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EFBFDBBE1D9C8E9F00409999</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EFBFDBC01D9C8E9F00409999</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EFBFDBBE1D9C8E9F00409999</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EFBFDBC11D9C8E9F00409999</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EFBFDBBE1D9C8E9F00409999</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EFBFDBC21D9C90F600409999</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EFBFDBC31D9C912E00409999</string>
-				<string>EFBFDBC41D9C914E00409999</string>
-				<string>EFBFDBC51D9C914E00409999</string>
-				<string>EF4782711D9CA77C00CE5054</string>
-				<string>EF4782721D9CA77C00CE5054</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Presenter</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EFBFDBC31D9C912E00409999</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Presenter.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EFBFDBC41D9C914E00409999</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PlacePresenter.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EFBFDBC51D9C914E00409999</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PlacePresenter.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EFBFDBC61D9C914E00409999</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EFBFDBC51D9C914E00409999</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EFBFDBC71D9C914E00409999</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EFBFDBC51D9C914E00409999</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EFBFDBC81D9C914E00409999</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EFBFDBC51D9C914E00409999</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F4CC689509CC43BBEC8179E8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-vivaDecora/Pods-vivaDecora-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>EF5D98B71D956EB700DE533F</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3F9E34DB89D425298F1AE5D /* Pods_vivaDecoraUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19FFFD78E41F945AD60DCD67 /* Pods_vivaDecoraUITests.framework */; };
+		D46F454CE62DD444E43D29F9 /* Pods_vivaDecoraTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA12112118068B26C0A2979 /* Pods_vivaDecoraTests.framework */; };
+		DEE8A686EF54809CFAAA94EA /* Pods_vivaDecora.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F048A14FF6A50B161DFBF5 /* Pods_vivaDecora.framework */; };
+		EF11C0A91D97580500CE03CD /* WSAviewFromMySeat.m in Sources */ = {isa = PBXBuildFile; fileRef = EF11C0A81D97580500CE03CD /* WSAviewFromMySeat.m */; };
+		EF11C0AA1D97580500CE03CD /* WSAviewFromMySeat.m in Sources */ = {isa = PBXBuildFile; fileRef = EF11C0A81D97580500CE03CD /* WSAviewFromMySeat.m */; };
+		EF11C0AB1D97580500CE03CD /* WSAviewFromMySeat.m in Sources */ = {isa = PBXBuildFile; fileRef = EF11C0A81D97580500CE03CD /* WSAviewFromMySeat.m */; };
+		EF3C2DD11D957537001BCBF4 /* PlacePhotoViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3C2DD01D957537001BCBF4 /* PlacePhotoViewCell.m */; };
+		EF3C2DD21D957537001BCBF4 /* PlacePhotoViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3C2DD01D957537001BCBF4 /* PlacePhotoViewCell.m */; };
+		EF3C2DD31D957537001BCBF4 /* PlacePhotoViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3C2DD01D957537001BCBF4 /* PlacePhotoViewCell.m */; };
+		EF3C2DD81D9575E8001BCBF4 /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3C2DD71D9575E8001BCBF4 /* Place.m */; };
+		EF3C2DD91D9575E8001BCBF4 /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3C2DD71D9575E8001BCBF4 /* Place.m */; };
+		EF3C2DDA1D9575E8001BCBF4 /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3C2DD71D9575E8001BCBF4 /* Place.m */; };
+		EF4782731D9CA77C00CE5054 /* DetailPlacePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4782721D9CA77C00CE5054 /* DetailPlacePresenter.m */; };
+		EF4782741D9CA77C00CE5054 /* DetailPlacePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4782721D9CA77C00CE5054 /* DetailPlacePresenter.m */; };
+		EF4782751D9CA77C00CE5054 /* DetailPlacePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4782721D9CA77C00CE5054 /* DetailPlacePresenter.m */; };
+		EF4782771D9CBBB400CE5054 /* WSAviewFromMySeatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4782761D9CBBB400CE5054 /* WSAviewFromMySeatTests.m */; };
+		EF5D98C41D956EB700DE533F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5D98C31D956EB700DE533F /* main.m */; };
+		EF5D98C71D956EB700DE533F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5D98C61D956EB700DE533F /* AppDelegate.m */; };
+		EF5D98CA1D956EB700DE533F /* PlaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5D98C91D956EB700DE533F /* PlaceViewController.m */; };
+		EF5D98CD1D956EB700DE533F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF5D98CB1D956EB700DE533F /* Main.storyboard */; };
+		EF5D98CF1D956EB700DE533F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF5D98CE1D956EB700DE533F /* Assets.xcassets */; };
+		EF5D98D21D956EB700DE533F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF5D98D01D956EB700DE533F /* LaunchScreen.storyboard */; };
+		EF5D98E81D956EB700DE533F /* vivaDecoraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5D98E71D956EB700DE533F /* vivaDecoraUITests.m */; };
+		EFA999EB1D9964270051C001 /* DetailPlaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA999EA1D9964270051C001 /* DetailPlaceViewController.m */; };
+		EFA999EC1D9964270051C001 /* DetailPlaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA999EA1D9964270051C001 /* DetailPlaceViewController.m */; };
+		EFA999ED1D9964270051C001 /* DetailPlaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA999EA1D9964270051C001 /* DetailPlaceViewController.m */; };
+		EFA999F01D99A4C50051C001 /* DetailPlace.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA999EF1D99A4C50051C001 /* DetailPlace.m */; };
+		EFA999F11D99A4C50051C001 /* DetailPlace.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA999EF1D99A4C50051C001 /* DetailPlace.m */; };
+		EFA999F21D99A4C50051C001 /* DetailPlace.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA999EF1D99A4C50051C001 /* DetailPlace.m */; };
+		EFA999F51D99AF7C0051C001 /* DetailPlaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA999F41D99AF7C0051C001 /* DetailPlaceView.m */; };
+		EFA999F61D99AF7C0051C001 /* DetailPlaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA999F41D99AF7C0051C001 /* DetailPlaceView.m */; };
+		EFA999F71D99AF7C0051C001 /* DetailPlaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA999F41D99AF7C0051C001 /* DetailPlaceView.m */; };
+		EFA999FA1D9AFE1A0051C001 /* UIAlertController+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA999F91D9AFE1A0051C001 /* UIAlertController+Custom.m */; };
+		EFA999FB1D9AFE1A0051C001 /* UIAlertController+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA999F91D9AFE1A0051C001 /* UIAlertController+Custom.m */; };
+		EFA999FC1D9AFE1A0051C001 /* UIAlertController+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA999F91D9AFE1A0051C001 /* UIAlertController+Custom.m */; };
+		EFBFDB951D9C407F00409999 /* PlaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBFDB941D9C407F00409999 /* PlaceTests.m */; };
+		EFBFDB971D9C4D7200409999 /* DetailPlaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBFDB961D9C4D7200409999 /* DetailPlaceTests.m */; };
+		EFBFDB9B1D9C7ED500409999 /* PlaceTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBFDB9A1D9C7ED500409999 /* PlaceTableViewDataSource.m */; };
+		EFBFDB9C1D9C7ED500409999 /* PlaceTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBFDB9A1D9C7ED500409999 /* PlaceTableViewDataSource.m */; };
+		EFBFDB9D1D9C7ED500409999 /* PlaceTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBFDB9A1D9C7ED500409999 /* PlaceTableViewDataSource.m */; };
+		EFBFDBBF1D9C8E9F00409999 /* Repository.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBFDBBE1D9C8E9F00409999 /* Repository.m */; };
+		EFBFDBC01D9C8E9F00409999 /* Repository.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBFDBBE1D9C8E9F00409999 /* Repository.m */; };
+		EFBFDBC11D9C8E9F00409999 /* Repository.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBFDBBE1D9C8E9F00409999 /* Repository.m */; };
+		EFBFDBC61D9C914E00409999 /* PlacePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBFDBC51D9C914E00409999 /* PlacePresenter.m */; };
+		EFBFDBC71D9C914E00409999 /* PlacePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBFDBC51D9C914E00409999 /* PlacePresenter.m */; };
+		EFBFDBC81D9C914E00409999 /* PlacePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBFDBC51D9C914E00409999 /* PlacePresenter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF5D98D91D956EB700DE533F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF5D98B71D956EB700DE533F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF5D98BE1D956EB700DE533F;
+			remoteInfo = vivaDecora;
+		};
+		EF5D98E41D956EB700DE533F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF5D98B71D956EB700DE533F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF5D98BE1D956EB700DE533F;
+			remoteInfo = vivaDecora;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CFD4684E885831A9CF219C0 /* Pods-vivaDecoraUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vivaDecoraUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-vivaDecoraUITests/Pods-vivaDecoraUITests.release.xcconfig"; sourceTree = "<group>"; };
+		19FFFD78E41F945AD60DCD67 /* Pods_vivaDecoraUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vivaDecoraUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		320B02667A72957D80153782 /* Pods-vivaDecora.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vivaDecora.release.xcconfig"; path = "Pods/Target Support Files/Pods-vivaDecora/Pods-vivaDecora.release.xcconfig"; sourceTree = "<group>"; };
+		77EB691D6C282CA2A381C84A /* Pods-vivaDecora.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vivaDecora.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vivaDecora/Pods-vivaDecora.debug.xcconfig"; sourceTree = "<group>"; };
+		9848BAF4FE22F41A1B5994BD /* Pods-vivaDecoraUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vivaDecoraUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vivaDecoraUITests/Pods-vivaDecoraUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B2F048A14FF6A50B161DFBF5 /* Pods_vivaDecora.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vivaDecora.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD0D7CC1BC569321A47A482 /* Pods-vivaDecoraTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vivaDecoraTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-vivaDecoraTests/Pods-vivaDecoraTests.release.xcconfig"; sourceTree = "<group>"; };
+		CAA074BC546F65AACA84A93B /* Pods-vivaDecoraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vivaDecoraTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vivaDecoraTests/Pods-vivaDecoraTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CDA12112118068B26C0A2979 /* Pods_vivaDecoraTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vivaDecoraTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF11C0A71D97580500CE03CD /* WSAviewFromMySeat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSAviewFromMySeat.h; sourceTree = "<group>"; };
+		EF11C0A81D97580500CE03CD /* WSAviewFromMySeat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSAviewFromMySeat.m; sourceTree = "<group>"; };
+		EF3C2DCF1D957537001BCBF4 /* PlacePhotoViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlacePhotoViewCell.h; sourceTree = "<group>"; };
+		EF3C2DD01D957537001BCBF4 /* PlacePhotoViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlacePhotoViewCell.m; sourceTree = "<group>"; };
+		EF3C2DD61D9575E8001BCBF4 /* Place.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Place.h; sourceTree = "<group>"; };
+		EF3C2DD71D9575E8001BCBF4 /* Place.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Place.m; sourceTree = "<group>"; };
+		EF4782711D9CA77C00CE5054 /* DetailPlacePresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailPlacePresenter.h; sourceTree = "<group>"; };
+		EF4782721D9CA77C00CE5054 /* DetailPlacePresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailPlacePresenter.m; sourceTree = "<group>"; };
+		EF4782761D9CBBB400CE5054 /* WSAviewFromMySeatTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSAviewFromMySeatTests.m; sourceTree = "<group>"; };
+		EF4782781D9D7E2300CE5054 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		EF4782791D9D805F00CE5054 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		EF47827A1D9D8BCE00CE5054 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		EF5D98BF1D956EB700DE533F /* vivaDecora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vivaDecora.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5D98C31D956EB700DE533F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF5D98C51D956EB700DE533F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF5D98C61D956EB700DE533F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF5D98C81D956EB700DE533F /* PlaceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PlaceViewController.h; path = ../PlaceViewController.h; sourceTree = "<group>"; };
+		EF5D98C91D956EB700DE533F /* PlaceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PlaceViewController.m; path = ../PlaceViewController.m; sourceTree = "<group>"; };
+		EF5D98CC1D956EB700DE533F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF5D98CE1D956EB700DE533F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF5D98D11D956EB700DE533F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF5D98D31D956EB700DE533F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF5D98D81D956EB700DE533F /* vivaDecoraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vivaDecoraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5D98DE1D956EB700DE533F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF5D98E31D956EB700DE533F /* vivaDecoraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vivaDecoraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5D98E71D956EB700DE533F /* vivaDecoraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vivaDecoraUITests.m; sourceTree = "<group>"; };
+		EF5D98E91D956EB700DE533F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFA999E91D9964270051C001 /* DetailPlaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailPlaceViewController.h; sourceTree = "<group>"; };
+		EFA999EA1D9964270051C001 /* DetailPlaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailPlaceViewController.m; sourceTree = "<group>"; };
+		EFA999EE1D99A4C50051C001 /* DetailPlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailPlace.h; sourceTree = "<group>"; };
+		EFA999EF1D99A4C50051C001 /* DetailPlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailPlace.m; sourceTree = "<group>"; };
+		EFA999F31D99AF7C0051C001 /* DetailPlaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailPlaceView.h; sourceTree = "<group>"; };
+		EFA999F41D99AF7C0051C001 /* DetailPlaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailPlaceView.m; sourceTree = "<group>"; };
+		EFA999F81D9AFE1A0051C001 /* UIAlertController+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Custom.h"; sourceTree = "<group>"; };
+		EFA999F91D9AFE1A0051C001 /* UIAlertController+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Custom.m"; sourceTree = "<group>"; };
+		EFBFDB941D9C407F00409999 /* PlaceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceTests.m; sourceTree = "<group>"; };
+		EFBFDB961D9C4D7200409999 /* DetailPlaceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailPlaceTests.m; sourceTree = "<group>"; };
+		EFBFDB991D9C7ED500409999 /* PlaceTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceTableViewDataSource.h; sourceTree = "<group>"; };
+		EFBFDB9A1D9C7ED500409999 /* PlaceTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceTableViewDataSource.m; sourceTree = "<group>"; };
+		EFBFDBBD1D9C8E9F00409999 /* Repository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Repository.h; sourceTree = "<group>"; };
+		EFBFDBBE1D9C8E9F00409999 /* Repository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Repository.m; sourceTree = "<group>"; };
+		EFBFDBC31D9C912E00409999 /* Presenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Presenter.h; sourceTree = "<group>"; };
+		EFBFDBC41D9C914E00409999 /* PlacePresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlacePresenter.h; sourceTree = "<group>"; };
+		EFBFDBC51D9C914E00409999 /* PlacePresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlacePresenter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF5D98BC1D956EB700DE533F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE8A686EF54809CFAAA94EA /* Pods_vivaDecora.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5D98D51D956EB700DE533F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D46F454CE62DD444E43D29F9 /* Pods_vivaDecoraTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5D98E01D956EB700DE533F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F9E34DB89D425298F1AE5D /* Pods_vivaDecoraUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99A74B744E0934662302C26D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2F048A14FF6A50B161DFBF5 /* Pods_vivaDecora.framework */,
+				CDA12112118068B26C0A2979 /* Pods_vivaDecoraTests.framework */,
+				19FFFD78E41F945AD60DCD67 /* Pods_vivaDecoraUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA0EB472F9FF3568130C1551 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77EB691D6C282CA2A381C84A /* Pods-vivaDecora.debug.xcconfig */,
+				320B02667A72957D80153782 /* Pods-vivaDecora.release.xcconfig */,
+				CAA074BC546F65AACA84A93B /* Pods-vivaDecoraTests.debug.xcconfig */,
+				BCD0D7CC1BC569321A47A482 /* Pods-vivaDecoraTests.release.xcconfig */,
+				9848BAF4FE22F41A1B5994BD /* Pods-vivaDecoraUITests.debug.xcconfig */,
+				0CFD4684E885831A9CF219C0 /* Pods-vivaDecoraUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF3C2DCB1D9572C5001BCBF4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF3C2DD61D9575E8001BCBF4 /* Place.h */,
+				EF3C2DD71D9575E8001BCBF4 /* Place.m */,
+				EFA999EE1D99A4C50051C001 /* DetailPlace.h */,
+				EFA999EF1D99A4C50051C001 /* DetailPlace.m */,
+				EF4782781D9D7E2300CE5054 /* Model.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF3C2DCC1D9572F4001BCBF4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EF3C2DCF1D957537001BCBF4 /* PlacePhotoViewCell.h */,
+				EF3C2DD01D957537001BCBF4 /* PlacePhotoViewCell.m */,
+				EFA999F31D99AF7C0051C001 /* DetailPlaceView.h */,
+				EFA999F41D99AF7C0051C001 /* DetailPlaceView.m */,
+				EF4782791D9D805F00CE5054 /* View.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EF3C2DCD1D95732A001BCBF4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EF5D98C81D956EB700DE533F /* PlaceViewController.h */,
+				EF5D98C91D956EB700DE533F /* PlaceViewController.m */,
+				EFA999E91D9964270051C001 /* DetailPlaceViewController.h */,
+				EFA999EA1D9964270051C001 /* DetailPlaceViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EF3C2DCE1D95733D001BCBF4 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				EF11C0A71D97580500CE03CD /* WSAviewFromMySeat.h */,
+				EF11C0A81D97580500CE03CD /* WSAviewFromMySeat.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		EF3C2DD41D95754A001BCBF4 /* Categorie */ = {
+			isa = PBXGroup;
+			children = (
+				EFA999F81D9AFE1A0051C001 /* UIAlertController+Custom.h */,
+				EFA999F91D9AFE1A0051C001 /* UIAlertController+Custom.m */,
+			);
+			path = Categorie;
+			sourceTree = "<group>";
+		};
+		EF3C2DF01D95922D001BCBF4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EF47827A1D9D8BCE00CE5054 /* Constants.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EF5D98B61D956EB700DE533F = {
+			isa = PBXGroup;
+			children = (
+				EF5D98C11D956EB700DE533F /* vivaDecora */,
+				EF5D98DB1D956EB700DE533F /* vivaDecoraTests */,
+				EF5D98E61D956EB700DE533F /* vivaDecoraUITests */,
+				EF5D98C01D956EB700DE533F /* Products */,
+				AA0EB472F9FF3568130C1551 /* Pods */,
+				99A74B744E0934662302C26D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EF5D98C01D956EB700DE533F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF5D98BF1D956EB700DE533F /* vivaDecora.app */,
+				EF5D98D81D956EB700DE533F /* vivaDecoraTests.xctest */,
+				EF5D98E31D956EB700DE533F /* vivaDecoraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF5D98C11D956EB700DE533F /* vivaDecora */ = {
+			isa = PBXGroup;
+			children = (
+				EF5D98C51D956EB700DE533F /* AppDelegate.h */,
+				EF5D98C61D956EB700DE533F /* AppDelegate.m */,
+				EF5D98CB1D956EB700DE533F /* Main.storyboard */,
+				EF5D98D01D956EB700DE533F /* LaunchScreen.storyboard */,
+				EFBFDB9E1D9C873C00409999 /* Repository */,
+				EF3C2DCE1D95733D001BCBF4 /* Service */,
+				EF3C2DCD1D95732A001BCBF4 /* Controller */,
+				EF3C2DCC1D9572F4001BCBF4 /* View */,
+				EFBFDB981D9C7E2E00409999 /* ViewModel */,
+				EFBFDBC21D9C90F600409999 /* Presenter */,
+				EF3C2DCB1D9572C5001BCBF4 /* Model */,
+				EF3C2DD41D95754A001BCBF4 /* Categorie */,
+				EF3C2DF01D95922D001BCBF4 /* Utils */,
+				EF5D98C21D956EB700DE533F /* Supporting Files */,
+			);
+			path = vivaDecora;
+			sourceTree = "<group>";
+		};
+		EF5D98C21D956EB700DE533F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF5D98CE1D956EB700DE533F /* Assets.xcassets */,
+				EF5D98D31D956EB700DE533F /* Info.plist */,
+				EF5D98C31D956EB700DE533F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF5D98DB1D956EB700DE533F /* vivaDecoraTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF5D98DE1D956EB700DE533F /* Info.plist */,
+				EFBFDB941D9C407F00409999 /* PlaceTests.m */,
+				EFBFDB961D9C4D7200409999 /* DetailPlaceTests.m */,
+				EF4782761D9CBBB400CE5054 /* WSAviewFromMySeatTests.m */,
+			);
+			path = vivaDecoraTests;
+			sourceTree = "<group>";
+		};
+		EF5D98E61D956EB700DE533F /* vivaDecoraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF5D98E71D956EB700DE533F /* vivaDecoraUITests.m */,
+				EF5D98E91D956EB700DE533F /* Info.plist */,
+			);
+			path = vivaDecoraUITests;
+			sourceTree = "<group>";
+		};
+		EFBFDB981D9C7E2E00409999 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EFBFDB991D9C7ED500409999 /* PlaceTableViewDataSource.h */,
+				EFBFDB9A1D9C7ED500409999 /* PlaceTableViewDataSource.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EFBFDB9E1D9C873C00409999 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				EFBFDBBD1D9C8E9F00409999 /* Repository.h */,
+				EFBFDBBE1D9C8E9F00409999 /* Repository.m */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		EFBFDBC21D9C90F600409999 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				EFBFDBC31D9C912E00409999 /* Presenter.h */,
+				EFBFDBC41D9C914E00409999 /* PlacePresenter.h */,
+				EFBFDBC51D9C914E00409999 /* PlacePresenter.m */,
+				EF4782711D9CA77C00CE5054 /* DetailPlacePresenter.h */,
+				EF4782721D9CA77C00CE5054 /* DetailPlacePresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF5D98BE1D956EB700DE533F /* vivaDecora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5D98EC1D956EB700DE533F /* Build configuration list for PBXNativeTarget "vivaDecora" */;
+			buildPhases = (
+				A090C33790B83013FDFB7407 /* [CP] Check Pods Manifest.lock */,
+				EF5D98BB1D956EB700DE533F /* Sources */,
+				EF5D98BC1D956EB700DE533F /* Frameworks */,
+				EF5D98BD1D956EB700DE533F /* Resources */,
+				F4CC689509CC43BBEC8179E8 /* [CP] Embed Pods Frameworks */,
+				0F3A020FFC8E6256DBAE2B44 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vivaDecora;
+			productName = vivaDecora;
+			productReference = EF5D98BF1D956EB700DE533F /* vivaDecora.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF5D98D71D956EB700DE533F /* vivaDecoraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5D98EF1D956EB700DE533F /* Build configuration list for PBXNativeTarget "vivaDecoraTests" */;
+			buildPhases = (
+				386442AF434AC42FC1060415 /* [CP] Check Pods Manifest.lock */,
+				EF5D98D41D956EB700DE533F /* Sources */,
+				EF5D98D51D956EB700DE533F /* Frameworks */,
+				EF5D98D61D956EB700DE533F /* Resources */,
+				B523DED3FC4C4098D584F642 /* [CP] Embed Pods Frameworks */,
+				673E8323C0EF9BF713C24B90 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF5D98DA1D956EB700DE533F /* PBXTargetDependency */,
+			);
+			name = vivaDecoraTests;
+			productName = vivaDecoraTests;
+			productReference = EF5D98D81D956EB700DE533F /* vivaDecoraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF5D98E21D956EB700DE533F /* vivaDecoraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5D98F21D956EB700DE533F /* Build configuration list for PBXNativeTarget "vivaDecoraUITests" */;
+			buildPhases = (
+				EF1A0DA8100B205D9350D0EC /* [CP] Check Pods Manifest.lock */,
+				EF5D98DF1D956EB700DE533F /* Sources */,
+				EF5D98E01D956EB700DE533F /* Frameworks */,
+				EF5D98E11D956EB700DE533F /* Resources */,
+				2BAF44B8BC8B254C1D82E4A8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF5D98E51D956EB700DE533F /* PBXTargetDependency */,
+			);
+			name = vivaDecoraUITests;
+			productName = vivaDecoraUITests;
+			productReference = EF5D98E31D956EB700DE533F /* vivaDecoraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF5D98B71D956EB700DE533F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = i9app;
+				TargetAttributes = {
+					EF5D98BE1D956EB700DE533F = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					EF5D98D71D956EB700DE533F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = WN2VB9A9U9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF5D98BE1D956EB700DE533F;
+					};
+					EF5D98E21D956EB700DE533F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = WN2VB9A9U9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF5D98BE1D956EB700DE533F;
+					};
+				};
+			};
+			buildConfigurationList = EF5D98BA1D956EB700DE533F /* Build configuration list for PBXProject "vivaDecora" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF5D98B61D956EB700DE533F;
+			productRefGroup = EF5D98C01D956EB700DE533F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF5D98BE1D956EB700DE533F /* vivaDecora */,
+				EF5D98D71D956EB700DE533F /* vivaDecoraTests */,
+				EF5D98E21D956EB700DE533F /* vivaDecoraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF5D98BD1D956EB700DE533F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5D98D21D956EB700DE533F /* LaunchScreen.storyboard in Resources */,
+				EF5D98CF1D956EB700DE533F /* Assets.xcassets in Resources */,
+				EF5D98CD1D956EB700DE533F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5D98D61D956EB700DE533F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5D98E11D956EB700DE533F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F3A020FFC8E6256DBAE2B44 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vivaDecora/Pods-vivaDecora-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BAF44B8BC8B254C1D82E4A8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vivaDecoraUITests/Pods-vivaDecoraUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		386442AF434AC42FC1060415 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		673E8323C0EF9BF713C24B90 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vivaDecoraTests/Pods-vivaDecoraTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A090C33790B83013FDFB7407 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B523DED3FC4C4098D584F642 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vivaDecoraTests/Pods-vivaDecoraTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF1A0DA8100B205D9350D0EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F4CC689509CC43BBEC8179E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vivaDecora/Pods-vivaDecora-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF5D98BB1D956EB700DE533F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3C2DD81D9575E8001BCBF4 /* Place.m in Sources */,
+				EF5D98CA1D956EB700DE533F /* PlaceViewController.m in Sources */,
+				EFA999EB1D9964270051C001 /* DetailPlaceViewController.m in Sources */,
+				EF11C0A91D97580500CE03CD /* WSAviewFromMySeat.m in Sources */,
+				EFBFDB9B1D9C7ED500409999 /* PlaceTableViewDataSource.m in Sources */,
+				EF3C2DD11D957537001BCBF4 /* PlacePhotoViewCell.m in Sources */,
+				EFBFDBBF1D9C8E9F00409999 /* Repository.m in Sources */,
+				EFA999F51D99AF7C0051C001 /* DetailPlaceView.m in Sources */,
+				EFBFDBC61D9C914E00409999 /* PlacePresenter.m in Sources */,
+				EF4782731D9CA77C00CE5054 /* DetailPlacePresenter.m in Sources */,
+				EFA999F01D99A4C50051C001 /* DetailPlace.m in Sources */,
+				EF5D98C71D956EB700DE533F /* AppDelegate.m in Sources */,
+				EFA999FA1D9AFE1A0051C001 /* UIAlertController+Custom.m in Sources */,
+				EF5D98C41D956EB700DE533F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5D98D41D956EB700DE533F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA999F11D99A4C50051C001 /* DetailPlace.m in Sources */,
+				EFA999EC1D9964270051C001 /* DetailPlaceViewController.m in Sources */,
+				EF11C0AA1D97580500CE03CD /* WSAviewFromMySeat.m in Sources */,
+				EFBFDB971D9C4D7200409999 /* DetailPlaceTests.m in Sources */,
+				EFBFDB9C1D9C7ED500409999 /* PlaceTableViewDataSource.m in Sources */,
+				EF3C2DD91D9575E8001BCBF4 /* Place.m in Sources */,
+				EFBFDBC01D9C8E9F00409999 /* Repository.m in Sources */,
+				EFBFDBC71D9C914E00409999 /* PlacePresenter.m in Sources */,
+				EF4782741D9CA77C00CE5054 /* DetailPlacePresenter.m in Sources */,
+				EF3C2DD21D957537001BCBF4 /* PlacePhotoViewCell.m in Sources */,
+				EFBFDB951D9C407F00409999 /* PlaceTests.m in Sources */,
+				EF4782771D9CBBB400CE5054 /* WSAviewFromMySeatTests.m in Sources */,
+				EFA999F61D99AF7C0051C001 /* DetailPlaceView.m in Sources */,
+				EFA999FB1D9AFE1A0051C001 /* UIAlertController+Custom.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5D98DF1D956EB700DE533F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBFDB9D1D9C7ED500409999 /* PlaceTableViewDataSource.m in Sources */,
+				EFBFDBC81D9C914E00409999 /* PlacePresenter.m in Sources */,
+				EFA999F21D99A4C50051C001 /* DetailPlace.m in Sources */,
+				EFA999ED1D9964270051C001 /* DetailPlaceViewController.m in Sources */,
+				EF11C0AB1D97580500CE03CD /* WSAviewFromMySeat.m in Sources */,
+				EF3C2DDA1D9575E8001BCBF4 /* Place.m in Sources */,
+				EF5D98E81D956EB700DE533F /* vivaDecoraUITests.m in Sources */,
+				EFBFDBC11D9C8E9F00409999 /* Repository.m in Sources */,
+				EF3C2DD31D957537001BCBF4 /* PlacePhotoViewCell.m in Sources */,
+				EF4782751D9CA77C00CE5054 /* DetailPlacePresenter.m in Sources */,
+				EFA999F71D99AF7C0051C001 /* DetailPlaceView.m in Sources */,
+				EFA999FC1D9AFE1A0051C001 /* UIAlertController+Custom.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF5D98DA1D956EB700DE533F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF5D98BE1D956EB700DE533F /* vivaDecora */;
+			targetProxy = EF5D98D91D956EB700DE533F /* PBXContainerItemProxy */;
+		};
+		EF5D98E51D956EB700DE533F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF5D98BE1D956EB700DE533F /* vivaDecora */;
+			targetProxy = EF5D98E41D956EB700DE533F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF5D98CB1D956EB700DE533F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF5D98CC1D956EB700DE533F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF5D98D01D956EB700DE533F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF5D98D11D956EB700DE533F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF5D98EA1D956EB700DE533F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF5D98EB1D956EB700DE533F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF5D98ED1D956EB700DE533F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77EB691D6C282CA2A381C84A /* Pods-vivaDecora.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = vivaDecora/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.i9.vivaDecora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF5D98EE1D956EB700DE533F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 320B02667A72957D80153782 /* Pods-vivaDecora.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = vivaDecora/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.i9.vivaDecora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF5D98F01D956EB700DE533F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAA074BC546F65AACA84A93B /* Pods-vivaDecoraTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WN2VB9A9U9;
+				INFOPLIST_FILE = vivaDecoraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.i9.vivaDecoraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vivaDecora.app/vivaDecora";
+			};
+			name = Debug;
+		};
+		EF5D98F11D956EB700DE533F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCD0D7CC1BC569321A47A482 /* Pods-vivaDecoraTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WN2VB9A9U9;
+				INFOPLIST_FILE = vivaDecoraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.i9.vivaDecoraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vivaDecora.app/vivaDecora";
+			};
+			name = Release;
+		};
+		EF5D98F31D956EB700DE533F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9848BAF4FE22F41A1B5994BD /* Pods-vivaDecoraUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = WN2VB9A9U9;
+				INFOPLIST_FILE = vivaDecoraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.i9.vivaDecoraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = vivaDecora;
+			};
+			name = Debug;
+		};
+		EF5D98F41D956EB700DE533F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CFD4684E885831A9CF219C0 /* Pods-vivaDecoraUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = WN2VB9A9U9;
+				INFOPLIST_FILE = vivaDecoraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.i9.vivaDecoraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = vivaDecora;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF5D98BA1D956EB700DE533F /* Build configuration list for PBXProject "vivaDecora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5D98EA1D956EB700DE533F /* Debug */,
+				EF5D98EB1D956EB700DE533F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF5D98EC1D956EB700DE533F /* Build configuration list for PBXNativeTarget "vivaDecora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5D98ED1D956EB700DE533F /* Debug */,
+				EF5D98EE1D956EB700DE533F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF5D98EF1D956EB700DE533F /* Build configuration list for PBXNativeTarget "vivaDecoraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5D98F01D956EB700DE533F /* Debug */,
+				EF5D98F11D956EB700DE533F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF5D98F21D956EB700DE533F /* Build configuration list for PBXNativeTarget "vivaDecoraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5D98F31D956EB700DE533F /* Debug */,
+				EF5D98F41D956EB700DE533F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF5D98B71D956EB700DE533F /* Project object */;
+}
